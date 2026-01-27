@@ -78,6 +78,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className='title'>TODO APP</h1>
       <div className="addTask">
         <input value={newTask} onChange={handleChange} />
         <button onClick={addTask}>Add Task</button>
