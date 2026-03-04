@@ -76,7 +76,7 @@ function Home() {
 
     return (
         <div className="App">
-            <h1 className='title'>TODO APP - Test webhook</h1>
+            <h1 className='title'>TODO APP</h1>
             <div className="addTask">
                 <input value={newTask} onChange={handleChange} />
                 <button onClick={addTask}>Add Task</button>
